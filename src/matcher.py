@@ -15,3 +15,18 @@ def FindBestMentor(mentee, mentorCSV):
             
     return bestMentor, bestScore, bestReason
     
+def rankTopMentors(mentee, mentorCSV, topK = 3):
+    results= []
+    
+    for _, mentor in mentorCSV.iterrows():
+        score, reason = calculateScore(mentee, mentor)
+        results.append({
+            "mentor": mentor["name"],
+            "score": score,
+            "reason": reason
+        })
+    results.sort(
+        key=lambda x: x["score"],
+        reverse=True
+    )
+    return results[:topK]

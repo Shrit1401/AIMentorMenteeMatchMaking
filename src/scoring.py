@@ -1,6 +1,7 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+
 vectorizer = TfidfVectorizer(
     ngram_range=(1, 2),
     stop_words="english"
