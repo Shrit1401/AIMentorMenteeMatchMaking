@@ -1,0 +1,13 @@
+menteeName,MatchedMentor,Reason,ConfidenceScore
+Aanya N,Dr. Sharma,"Same domain (AI), Same or very similar subdomain",100
+Rohit K,Dr. Kulkarni,"Same domain (Cybersecurity), Same or very similar subdomain",100
+Diya P,Prof. Menon,"Same domain (Healthcare), Same or very similar subdomain",100
+Arjun S,Dr. Iyer,"Same domain (AI), Same or very similar subdomain",100
+Meera R,Mr. Verma,"Same domain (Healthcare), Different subdomain",70
+Kunal M,Ms. Rao,"Same domain (Cybersecurity), Different subdomain",70
+Sneha T,Dr. Banerjee,"Same domain (AI), Same or very similar subdomain",100
+Aditya P,Mr. Thomas,"Same domain (Robotics), Different subdomain",76
+Pooja K,Dr. Nandakumar,"Same domain (Healthcare), Same or very similar subdomain",100
+Rahul D,Dr. Iyer,"Same domain (AI), Different subdomain",73
+Neha S,Dr. Patel,"Same domain (Cybersecurity), Same or very similar subdomain",100
+Varun G,Dr. Fernandez,"Same domain (Robotics), Same or very similar subdomain",100
