@@ -1,30 +1,38 @@
+from typing import Dict, List, Tuple
+
+import pandas as pd
+
 from src.scoring import calculateScore
 
-def findBestMentor(mentee, mentorCSV):
+
+def findBestMentor(mentee: Dict, mentorsCSV: pd.DataFrame) -> Tuple[str, int, str]:
     bestScore = -1
-    bestMentor = None
+    bestMentor = ""
     bestReason = ""
-    
-    for _, mentor in mentorCSV.iterrows():
+
+    for _, mentor in mentorsCSV.iterrows():
         score, reason = calculateScore(mentee, mentor)
-        
         if score > bestScore:
             bestScore = score
             bestMentor = mentor["name"]
             bestReason = reason
-            
+
     return bestMentor, bestScore, bestReason
 
-def rankTopMentors(mentee, mentorCSV, topK=3):
-    results = []
-    
-    for _, mentor in mentorCSV.iterrows():
+
+def rankTopMentors(
+    mentee: Dict, mentorsCSV: pd.DataFrame, topK: int = 3
+) -> List[Dict]:
+    ranked = []
+    for _, mentor in mentorsCSV.iterrows():
         score, reason = calculateScore(mentee, mentor)
-        results.append({
-            "mentor": mentor["name"],
-            "score": score,
-            "reason": reason
-        })
-    
-    results.sort(key=lambda x: x["score"], reverse=True)
-    return results[:topK]
+        ranked.append(
+            {"mentor": mentor["name"], "score": score, "reason": reason}
+        )
+
+    ranked.sort(key=lambda x: x["score"], reverse=True)
+    return ranked[: max(int(topK), 0)]
+
+
+def FindBestMentor(mentee: Dict, mentorCSV: pd.DataFrame):
+    return findBestMentor(mentee, mentorCSV)
