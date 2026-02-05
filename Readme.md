@@ -267,8 +267,3 @@ Running the system with the provided sample data produces matches like:
 - **Aanya N** (AI, Computer Vision) → **Dr. Sharma** (AI, Computer Vision) - Score: 100
 - **Rohit K** (Cybersecurity, Network Security) → **Dr. Kulkarni** (Cybersecurity, Network Security) - Score: 100
 - **Rahul D** (AI, Large Language Models) → **Dr. Iyer** (AI, Natural Language Processing) - Score: 83
-
-## Contact
-
-Shrit Shrivastava
-MIT Blr
