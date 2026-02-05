@@ -169,6 +169,29 @@ Match one or more mentees with mentors.
 - Interactive docs: `http://127.0.0.1:8000/docs`
 - ReDoc: `http://127.0.0.1:8000/redoc`
 
+## Deployment
+
+The FastAPI backend is deployed on Railway. The API exposes a `/match` endpoint and an interactive Swagger UI at `/docs`.
+
+### Deployment Setup
+
+The application is configured for deployment on Railway:
+
+1. **Procfile**: Defines the web server command (`web: python -m uvicorn api.app:app --host 0.0.0.0 --port $PORT`)
+2. **requirements.txt**: Contains all necessary dependencies (FastAPI, uvicorn, pandas, scikit-learn, sentence-transformers, torch)
+3. **Data files**: `data/mentors.csv` is included in the repository for the API to load mentors
+
+### Railway Deployment Steps
+
+1. Push your code to GitHub
+2. Sign in to [Railway](https://railway.app) with your GitHub account
+3. Create a new project and select "Deploy from GitHub repo"
+4. Select your repository
+5. Railway will automatically detect Python, install dependencies, and deploy
+6. Once deployed, Railway provides a public HTTPS URL
+
+**Note**: The first request may be slower as the sentence-transformers model loads into memory. This is normal behavior.
+
 ## Input Data Format
 
 ### Mentees CSV (`data/mentees.csv`)
