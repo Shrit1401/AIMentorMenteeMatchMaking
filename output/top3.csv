@@ -1,37 +1,37 @@
 mentee_name,rank,mentor_name,confidence_score,reason
-Aanya N,1,Dr. Sharma,100,"Same domain (AI), Same or very similar subdomain, Similarity via semantic"
-Aanya N,2,Prof. Sengupta,98,"Same domain (AI), Related subdomain, Similarity via semantic"
-Aanya N,3,Dr. Banerjee,90,"Same domain (AI), Different subdomain, Similarity via semantic"
-Rohit K,1,Dr. Kulkarni,100,"Same domain (Cybersecurity), Same or very similar subdomain, Similarity via semantic"
-Rohit K,2,Dr. Patel,100,"Same domain (Cybersecurity), Related subdomain, Similarity via semantic"
-Rohit K,3,Ms. Rao,96,"Same domain (Cybersecurity), Related subdomain, Similarity via semantic"
-Diya P,1,Prof. Menon,100,"Same domain (Healthcare), Same or very similar subdomain, Similarity via semantic"
-Diya P,2,Dr. Nandakumar,98,"Same domain (Healthcare), Related subdomain, Similarity via semantic"
-Diya P,3,Mr. Verma,84,"Same domain (Healthcare), Different subdomain, Similarity via semantic"
-Arjun S,1,Dr. Iyer,100,"Same domain (AI), Same or very similar subdomain, Similarity via semantic"
-Arjun S,2,Prof. Sengupta,94,"Same domain (AI), Related subdomain, Similarity via semantic"
-Arjun S,3,Dr. Sharma,88,"Same domain (AI), Different subdomain, Similarity via semantic"
-Meera R,1,Mr. Verma,100,"Same domain (Healthcare), Related subdomain, Similarity via semantic"
-Meera R,2,Prof. Menon,86,"Same domain (Healthcare), Different subdomain, Similarity via semantic"
-Meera R,3,Dr. Nandakumar,86,"Same domain (Healthcare), Different subdomain, Similarity via semantic"
-Kunal M,1,Dr. Kulkarni,88,"Same domain (Cybersecurity), Different subdomain, Similarity via semantic"
-Kunal M,2,Dr. Patel,86,"Same domain (Cybersecurity), Different subdomain, Similarity via semantic"
-Kunal M,3,Ms. Rao,82,"Same domain (Cybersecurity), Different subdomain, Similarity via semantic"
-Sneha T,1,Dr. Banerjee,100,"Same domain (AI), Same or very similar subdomain, Similarity via semantic"
-Sneha T,2,Prof. Sengupta,100,"Same domain (AI), Related subdomain, Similarity via semantic"
-Sneha T,3,Dr. Sharma,90,"Same domain (AI), Different subdomain, Similarity via semantic"
-Aditya P,1,Mr. Thomas,100,"Same domain (Robotics), Related subdomain, Similarity via semantic"
-Aditya P,2,Dr. Fernandez,96,"Same domain (Robotics), Related subdomain, Similarity via semantic"
+Aanya N,1,Dr. Sharma,100,Same domain (AI) and Same or very similar subdomain
+Aanya N,2,Prof. Sengupta,84,Same domain (AI) and Related subdomain
+Aanya N,3,Dr. Banerjee,80,Same domain (AI) and Different subdomain
+Rohit K,1,Dr. Kulkarni,100,Same domain (Cybersecurity) and Same or very similar subdomain
+Rohit K,2,Dr. Patel,87,Same domain (Cybersecurity) and Related subdomain
+Rohit K,3,Ms. Rao,83,Same domain (Cybersecurity) and Related subdomain
+Diya P,1,Prof. Menon,100,Same domain (Healthcare) and Same or very similar subdomain
+Diya P,2,Dr. Nandakumar,84,Same domain (Healthcare) and Related subdomain
+Diya P,3,Mr. Verma,77,Same domain (Healthcare) and Different subdomain
+Arjun S,1,Dr. Iyer,100,Same domain (AI) and Same or very similar subdomain
+Arjun S,2,Prof. Sengupta,82,Same domain (AI) and Related subdomain
+Arjun S,3,Dr. Sharma,79,Same domain (AI) and Different subdomain
+Meera R,1,Mr. Verma,88,Same domain (Healthcare) and Related subdomain
+Meera R,2,Prof. Menon,78,Same domain (Healthcare) and Different subdomain
+Meera R,3,Dr. Nandakumar,78,Same domain (Healthcare) and Different subdomain
+Kunal M,1,Dr. Kulkarni,79,Same domain (Cybersecurity) and Different subdomain
+Kunal M,2,Dr. Patel,78,Same domain (Cybersecurity) and Different subdomain
+Kunal M,3,Ms. Rao,76,Same domain (Cybersecurity) and Different subdomain
+Sneha T,1,Dr. Banerjee,100,Same domain (AI) and Same or very similar subdomain
+Sneha T,2,Prof. Sengupta,86,Same domain (AI) and Related subdomain
+Sneha T,3,Dr. Sharma,80,Same domain (AI) and Different subdomain
+Aditya P,1,Mr. Thomas,90,Same domain (Robotics) and Related subdomain
+Aditya P,2,Dr. Fernandez,83,Same domain (Robotics) and Related subdomain
 Aditya P,3,Dr. Sharma,0,Different research domain
-Pooja K,1,Dr. Nandakumar,100,"Same domain (Healthcare), Same or very similar subdomain, Similarity via semantic"
-Pooja K,2,Prof. Menon,98,"Same domain (Healthcare), Related subdomain, Similarity via semantic"
-Pooja K,3,Mr. Verma,94,"Same domain (Healthcare), Related subdomain, Similarity via semantic"
-Rahul D,1,Dr. Iyer,96,"Same domain (AI), Related subdomain, Similarity via semantic"
-Rahul D,2,Prof. Sengupta,88,"Same domain (AI), Different subdomain, Similarity via semantic"
-Rahul D,3,Dr. Banerjee,82,"Same domain (AI), Different subdomain, Similarity via semantic"
-Neha S,1,Dr. Kulkarni,100,"Same domain (Cybersecurity), Related subdomain, Similarity via semantic"
-Neha S,2,Dr. Patel,100,"Same domain (Cybersecurity), Same or very similar subdomain, Similarity via semantic"
-Neha S,3,Ms. Rao,98,"Same domain (Cybersecurity), Related subdomain, Similarity via semantic"
-Varun G,1,Dr. Fernandez,100,"Same domain (Robotics), Same or very similar subdomain, Similarity via semantic"
-Varun G,2,Mr. Thomas,98,"Same domain (Robotics), Related subdomain, Similarity via semantic"
+Pooja K,1,Dr. Nandakumar,100,Same domain (Healthcare) and Same or very similar subdomain
+Pooja K,2,Prof. Menon,84,Same domain (Healthcare) and Related subdomain
+Pooja K,3,Mr. Verma,82,Same domain (Healthcare) and Related subdomain
+Rahul D,1,Dr. Iyer,83,Same domain (AI) and Related subdomain
+Rahul D,2,Prof. Sengupta,79,Same domain (AI) and Different subdomain
+Rahul D,3,Dr. Banerjee,76,Same domain (AI) and Different subdomain
+Neha S,1,Dr. Patel,100,Same domain (Cybersecurity) and Same or very similar subdomain
+Neha S,2,Dr. Kulkarni,87,Same domain (Cybersecurity) and Related subdomain
+Neha S,3,Ms. Rao,84,Same domain (Cybersecurity) and Related subdomain
+Varun G,1,Dr. Fernandez,100,Same domain (Robotics) and Same or very similar subdomain
+Varun G,2,Mr. Thomas,84,Same domain (Robotics) and Related subdomain
 Varun G,3,Dr. Sharma,0,Different research domain

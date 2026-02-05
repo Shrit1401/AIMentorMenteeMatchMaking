@@ -1,13 +1,13 @@
 mentee_name,mentor_name,confidence_score,reason
-Aanya N,Dr. Sharma,100,"Same domain (AI), Same or very similar subdomain, Similarity via semantic"
-Rohit K,Dr. Kulkarni,100,"Same domain (Cybersecurity), Same or very similar subdomain, Similarity via semantic"
-Diya P,Prof. Menon,100,"Same domain (Healthcare), Same or very similar subdomain, Similarity via semantic"
-Arjun S,Dr. Iyer,100,"Same domain (AI), Same or very similar subdomain, Similarity via semantic"
-Meera R,Mr. Verma,100,"Same domain (Healthcare), Related subdomain, Similarity via semantic"
-Kunal M,Dr. Kulkarni,88,"Same domain (Cybersecurity), Different subdomain, Similarity via semantic"
-Sneha T,Dr. Banerjee,100,"Same domain (AI), Same or very similar subdomain, Similarity via semantic"
-Aditya P,Mr. Thomas,100,"Same domain (Robotics), Related subdomain, Similarity via semantic"
-Pooja K,Dr. Nandakumar,100,"Same domain (Healthcare), Same or very similar subdomain, Similarity via semantic"
-Rahul D,Dr. Iyer,96,"Same domain (AI), Related subdomain, Similarity via semantic"
-Neha S,Dr. Kulkarni,100,"Same domain (Cybersecurity), Related subdomain, Similarity via semantic"
-Varun G,Dr. Fernandez,100,"Same domain (Robotics), Same or very similar subdomain, Similarity via semantic"
+Aanya N,Dr. Sharma,100,Same domain (AI) and Same or very similar subdomain
+Rohit K,Dr. Kulkarni,100,Same domain (Cybersecurity) and Same or very similar subdomain
+Diya P,Prof. Menon,100,Same domain (Healthcare) and Same or very similar subdomain
+Arjun S,Dr. Iyer,100,Same domain (AI) and Same or very similar subdomain
+Meera R,Mr. Verma,88,Same domain (Healthcare) and Related subdomain
+Kunal M,Dr. Kulkarni,79,Same domain (Cybersecurity) and Different subdomain
+Sneha T,Dr. Banerjee,100,Same domain (AI) and Same or very similar subdomain
+Aditya P,Mr. Thomas,90,Same domain (Robotics) and Related subdomain
+Pooja K,Dr. Nandakumar,100,Same domain (Healthcare) and Same or very similar subdomain
+Rahul D,Dr. Iyer,83,Same domain (AI) and Related subdomain
+Neha S,Dr. Patel,100,Same domain (Cybersecurity) and Same or very similar subdomain
+Varun G,Dr. Fernandez,100,Same domain (Robotics) and Same or very similar subdomain

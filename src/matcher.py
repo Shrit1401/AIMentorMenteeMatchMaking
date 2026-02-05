@@ -1,6 +1,6 @@
 from src.scoring import calculateScore
 
-def FindBestMentor(mentee, mentorCSV):
+def findBestMentor(mentee, mentorCSV):
     bestScore = -1
     bestMentor = None
     bestReason = ""
@@ -14,9 +14,9 @@ def FindBestMentor(mentee, mentorCSV):
             bestReason = reason
             
     return bestMentor, bestScore, bestReason
-    
-def rankTopMentors(mentee, mentorCSV, topK = 3):
-    results= []
+
+def rankTopMentors(mentee, mentorCSV, topK=3):
+    results = []
     
     for _, mentor in mentorCSV.iterrows():
         score, reason = calculateScore(mentee, mentor)
@@ -25,8 +25,6 @@ def rankTopMentors(mentee, mentorCSV, topK = 3):
             "score": score,
             "reason": reason
         })
-    results.sort(
-        key=lambda x: x["score"],
-        reverse=True
-    )
+    
+    results.sort(key=lambda x: x["score"], reverse=True)
     return results[:topK]

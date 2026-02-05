@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from src.loadData import loadData
-from src.matcher import rankTopMentors
+from src.matcher import findBestMentor, rankTopMentors
 
 def main():
     menteesCSV, mentorsCSV = loadData()
@@ -9,14 +9,16 @@ def main():
     top3_results = []
 
     for _, mentee in menteesCSV.iterrows():
+        bestMentor, bestScore, bestReason = findBestMentor(mentee, mentorsCSV)
         topMentors = rankTopMentors(mentee, mentorsCSV, topK=3)
-        best = topMentors[0]
+        
         results.append({
             "mentee_name": mentee["name"],
-            "mentor_name": best["mentor"],
-            "confidence_score": best["score"],
-            "reason": best["reason"]
+            "mentor_name": bestMentor,
+            "confidence_score": bestScore,
+            "reason": bestReason
         })
+        
         for rank, mentorInfo in enumerate(topMentors, start=1):
             top3_results.append({
                 "mentee_name": mentee["name"],
